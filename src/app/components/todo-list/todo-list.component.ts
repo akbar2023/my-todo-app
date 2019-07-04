@@ -41,19 +41,19 @@ export class TodoListComponent implements OnInit {
     this.todos = [
       {
         'id': 1,
-        'title': 'Finish Angular Screencast',
+        'title': 'Finish Angular Todo list',
         'completed': false,
         'editing': false,
       },
       {
         'id': 2,
-        'title': 'Take over world',
+        'title': 'Take a break',
         'completed': false,
         'editing': false,
       },
       {
         'id': 3,
-        'title': 'One more thing',
+        'title': 'Go to bed',
         'completed': false,
         'editing': false,
       },

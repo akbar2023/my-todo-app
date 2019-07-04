@@ -22,9 +22,9 @@
 
 <div class="extra-container">
   <div>
-    <button [ngClass]="{'active': filter === 'all'}" (click)="filter='all'">All</button>
-    <button [ngClass]="{'active': filter === 'active'}" (click)="filter='active'">Active</button>
-    <button [ngClass]="{'active': filter === 'completed'}" (click)="filter='completed'">Completed</button>
+    <button class="btn btn-dark" [ngClass]="{'active': filter === 'all'}" (click)="filter='all'">All</button>
+    <button class="btn btn-dark" [ngClass]="{'active': filter === 'active'}" (click)="filter='active'">Active</button>
+    <button class="btn btn-dark" [ngClass]="{'active': filter === 'completed'}" (click)="filter='completed'">Completed</button>
   </div>
 
   <div *ngIf="atLeastOneCompleted()">

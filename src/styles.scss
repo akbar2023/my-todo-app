@@ -12,7 +12,6 @@
     margin: 0 auto;
   }
   
-  
   body {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -21,9 +20,15 @@
     margin-top: 60px;
     font-size: 24px;
   }
-  
+
   .logo {
     display: block;
     margin: 20px auto;
     height: 75px;
+  }
+
+  .btn{
+    color: #000;
+    margin: 5px;
+    transition: .4s ease;
   }
